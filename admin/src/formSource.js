@@ -76,7 +76,7 @@ export const userInputs = [
     },
     {
       id: 5,
-      label: "Founders",
+      label: "Founder/s",
       type: "text",
       placeholder: "founder name",
     },
