@@ -6,6 +6,9 @@ const userRoute = require("./routes/user");
 const authRoute = require("./routes/auth");
 const startupRoute = require("./routes/startup");
 const blogRoute = require("./routes/blog");
+var cors = require('cors');
+
+app.use(cors()) // Use this after the variable declaration
 
 dotenv.config();
 

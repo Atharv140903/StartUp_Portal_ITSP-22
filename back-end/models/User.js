@@ -11,6 +11,7 @@ const UserSchema = new mongoose.Schema(
     address: { type: String, required: true, unique: false},
     contactno: { type: Number, required: true, unique: false },
     profileimg: { type: String, unique: false },
+    linkedin: { type: String, unique: false},
     isAdmin: {
       type: Boolean,
       default: false,

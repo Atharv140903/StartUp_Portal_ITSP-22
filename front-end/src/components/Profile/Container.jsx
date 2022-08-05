@@ -30,34 +30,15 @@ export default function Container() {
                       <i className="fas fa-globe fa-lg text-warning"></i>
                       <p className="mb-0">https://website.com</p>
                     </li>
+                    
                     <li className="list-group-item d-flex justify-content-between align-items-center p-3">
                       <i
-                        className="fab fa-github fa-lg"
-                        styles="color: #333333;"
-                      ></i>
-                      <p className="mb-0">github@username</p>
-                    </li>
-                    <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                      <i
-                        className="fab fa-twitter fa-lg"
+                        className="fab fa-linkedin fa-lg"
                         styles="color: #55acee;"
                       ></i>
-                      <p className="mb-0">twitter@username</p>
+                      <p className="mb-0">linkedin@username</p>
                     </li>
-                    <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                      <i
-                        className="fab fa-instagram fa-lg"
-                        styles="color: #ac2bac;"
-                      ></i>
-                      <p className="mb-0">instagram@username</p>
-                    </li>
-                    <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                      <i
-                        className="fab fa-facebook-f fa-lg"
-                        styles="color: #3b5998;"
-                      ></i>
-                      <p className="mb-0">facebook@username</p>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -113,7 +94,7 @@ export default function Container() {
                 </div>
               </div>
 
-              <div className="card mb-4">
+              {/* <div className="card mb-4">
                 <div className="card-body">
                   <h3 className="text-center">Skills</h3>
                   <hr />
@@ -124,7 +105,7 @@ export default function Container() {
                     <li>video Editing</li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

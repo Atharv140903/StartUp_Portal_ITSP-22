@@ -17,6 +17,7 @@ router.post("/register", async (req, res) => {
     address: req.body.address,
     contactno: req.body.contactno,
     profileimg: req.body.profileimg,
+    linkedin: req.body.linkedin,
   });
 
   try {
